@@ -10,9 +10,21 @@
 
 <body>
     <div id="mainContainer">
-        <div id="tileContainer">
+        <div class="parameters">
+            x - tiles: <input type="text" id="x-tiles" size="5" /> y - tiles: <input type="text" id="y-tiles" size="5" />
+            <label for="cars">tile color:</label>
+            <select id="colorSelector">
+                <option value="blank">Blank (0)</option>
+                <option value="green">Green (1)</option>
+                <option value="chocolate">Brown (2)</option>
+                <option value="blue">Blue (3)</option>
+                <option value="red">Red (4)</option>
+                <option value="orange">Yellow (5)</option>
+                <option value="purple">Purple (6))</option>
+            </select>
+            <button onclick="generateArray()">output array</button>
         </div>
-        <button onclick="generateArray()">output array</button>
+        <div id="tileContainer"></div>
         <div id="outputArray"></div>
     </div>
 
