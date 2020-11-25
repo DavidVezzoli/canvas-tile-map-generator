@@ -1,4 +1,4 @@
-# Canvas rile map array generator
+# Canvas tile map array generator
 
 ## Project description
 ```
